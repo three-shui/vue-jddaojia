@@ -1,0 +1,10 @@
+//此项目的css单位用rem来编写，这里用来规定rem与px之间的单位转换
+//这里规定 ===> 1rem=100px
+html {
+  font-size: 100px;
+}
+
+//body部分的文字大小
+body {
+  font-size: .12rem; //其实是0.12，0可以省略
+}

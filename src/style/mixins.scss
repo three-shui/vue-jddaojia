@@ -1,0 +1,9 @@
+//这里设置多余的文字如何显示，这里设置为省略号...
+//white-space 属性用于设置如何处理元素内的空白
+//white-space: nowrap  ===> 合并空格(多个相邻空格合并成一个空格)，但是不换行
+//经常和overflow,text-overflow一起使用
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
