@@ -67,8 +67,8 @@ const iconsList = [
   width: 100%;
   margin-bottom: .12rem;
   line-height: .32rem;
-  background: #F5F5F5;
-  color: #000;
+  background: $search-bgColor;
+  color: $search-fontColor;
   border-radius: .16rem;
   //去掉边框
   border: none;

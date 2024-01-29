@@ -7,6 +7,7 @@ defineProps(['message'])
 </template>
 
 <style lang="scss" scoped>
+@import '@/style/viriables.scss';
 .toast {
   position: fixed;
   left: 50%;
@@ -15,6 +16,6 @@ defineProps(['message'])
   padding: .1rem;
   background: rgba(0, 0, 0, .35);
   border-radius: .05rem;
-  color: #FFF;
+  color: $bgColor;
 }
 </style>
