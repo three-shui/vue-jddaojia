@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router';
 import ShopInfo from '@/components/ShopInfo.vue';
 import httpInstance from '@/utils/request';
 import Content from './Content.vue'
+import Cart from './Cart.vue';
 
 const route = useRoute()
 
@@ -30,6 +31,7 @@ getItemData()
     <ShopInfo :item="item" :hideBorder="true" v-show="item.imgUrl" />
   </div>
   <Content />
+  <Cart/>
 </template>
 
 <style lang="scss" scoped>
